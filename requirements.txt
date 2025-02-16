@@ -1,0 +1,13 @@
+flask
+SQLAlchemy
+Flask-SQLAlchemy
+bcrypt
+Flask-JWT-Extended
+PyMySQL
+email_validator
+python-dateutil
+numpy
+pytest
+python-dotenv
+cryptography
+requests

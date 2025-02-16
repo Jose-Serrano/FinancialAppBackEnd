@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance Drop Alert</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            margin: 20px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Dear {{user_name}},</p>
+        <p>We noticed a significant balance drop in your account more than {{amount}}.</p>
+        <p>If this wasn't you, please review your recent transactions to ensure everything is correct.</p>
+        <p>Best Regards,</p>
+        <p>The Management Team</p>
+    </div>
+</body>
+</html>
